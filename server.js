@@ -19,5 +19,6 @@ app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
 
+// Use api
 
 app.use('/api/coding', codingRouter);
